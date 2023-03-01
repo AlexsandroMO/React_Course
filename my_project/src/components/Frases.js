@@ -1,6 +1,8 @@
+import styles from './Frase.module.css'
+
 function Frases(){
     return (
-        <div>
+        <div className={styles.fraseContainer}>
             <p>Second Component</p>
         </div>
     )
